@@ -23,4 +23,5 @@ carry_list_df %>%
   group_by(elf) %>%
   summarise(sum = sum(V1)) %>%
   arrange(desc(sum)) %>%
-  slice(1)
+  slice(1:3)
+
